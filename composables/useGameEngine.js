@@ -27,11 +27,11 @@ export function useGameEngine(threeEngine, input) {
     yBoundTop: 0,
     yBoundBottom: screenHeight,
     explosionLifetimeInitial: 0.5,
-    thrust: 0.5,
+    thrust: 0.25,
     damping: 0.98,
-    playerMaxSpeed: 10,
+    playerMaxSpeed: 5,
     rotationSpeedVal: 0.07,
-    enemyChaseSpeed: 1.2,
+    enemyChaseSpeed: 0.8,
     shieldRadius: 40, // IDEA, not yet implemented
   };
 
